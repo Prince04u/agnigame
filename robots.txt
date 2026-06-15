@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://agniclub.games/sitemap.xml

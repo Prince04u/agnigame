@@ -1,0 +1,56 @@
+/* AgniClub - lightweight stylesheet */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0a0606;color:#f3eadf;line-height:1.65;font-size:16px}
+img{max-width:100%;height:auto;display:block}
+a{color:#ffb347;text-decoration:none}
+a:hover,a:focus{color:#ffd47a;text-decoration:underline}
+h1,h2,h3,h4{font-weight:800;line-height:1.2;margin:0 0 .6em;color:#fff;letter-spacing:.3px}
+h1{font-size:clamp(1.9rem,4.5vw,3rem);background:linear-gradient(90deg,#ffb347,#ff5722,#ffd700);-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-size:clamp(1.5rem,3vw,2.1rem);color:#ffb347}
+h3{font-size:1.2rem;color:#ffd47a}
+p{margin:0 0 1em}
+.container{width:100%;max-width:1120px;margin:0 auto;padding:0 20px}
+header.site{position:sticky;top:0;z-index:50;background:rgba(10,6,6,.92);backdrop-filter:blur(8px);border-bottom:1px solid #2a1a10}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;max-width:1120px;margin:0 auto;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:#fff;font-size:1.1rem}
+.brand img{width:38px;height:38px;border-radius:8px}
+.nav ul{display:flex;gap:18px;list-style:none;padding:0;margin:0;flex-wrap:wrap}
+.nav a{color:#f3eadf;font-size:.95rem}
+.btn{display:inline-block;padding:11px 22px;border-radius:8px;font-weight:700;background:linear-gradient(90deg,#ff5722,#ff8a00);color:#fff;border:0;cursor:pointer;transition:transform .15s ease}
+.btn:hover{transform:translateY(-1px);color:#fff;text-decoration:none}
+.btn.ghost{background:transparent;border:1px solid #ff8a00;color:#ffb347}
+.hero{padding:64px 0 56px;background:radial-gradient(ellipse at top,#2a0d05 0%,#0a0606 70%)}
+.hero p.lede{font-size:1.15rem;color:#d9ccba;max-width:760px}
+.grid{display:grid;gap:22px}
+.grid.cols-3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.grid.cols-2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card{background:linear-gradient(160deg,#160a07,#1f0e08);border:1px solid #3a1d10;border-radius:14px;padding:22px}
+.card h3{margin-top:0}
+section{padding:54px 0;border-top:1px solid #1a0d08}
+section:first-of-type{border-top:0}
+.section-dark{background:#08-0504}
+.muted{color:#bba999}
+.kbd{display:inline-block;padding:2px 8px;border-radius:6px;background:#2a1a10;color:#ffd47a;font-size:.85em}
+ul.checks{list-style:none;padding:0;margin:0 0 1em}
+ul.checks li{padding:8px 0 8px 28px;position:relative}
+ul.checks li::before{content:"";position:absolute;left:0;top:14px;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#ff8a00,#ff5722)}
+.cta{background:linear-gradient(135deg,#1a0904,#341308);text-align:center;padding:48px 20px;border-radius:16px;margin:36px 0}
+.cta h2{margin-top:0}
+footer.site{background:#070403;padding:40px 0 24px;border-top:1px solid #2a1a10;color:#a89888;font-size:.92rem}
+footer.site .grid{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+footer a{color:#d9ccba}
+.crumbs{font-size:.88rem;color:#a89888;padding:14px 0}
+.crumbs a{color:#ffb347}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.95rem}
+th,td{border:1px solid #3a1d10;padding:10px;text-align:left}
+th{background:#1f0e08;color:#ffd47a}
+details{background:#160a07;border:1px solid #3a1d10;border-radius:10px;padding:14px 18px;margin:10px 0}
+summary{cursor:pointer;font-weight:700;color:#ffd47a}
+.tag{display:inline-block;padding:3px 10px;border-radius:999px;background:#2a1a10;color:#ffb347;font-size:.78rem;margin-right:6px}
+.imgwrap{border-radius:14px;overflow:hidden;border:1px solid #3a1d10;background:#0e0604}
+@media(max-width:720px){.nav ul{display:none}.nav .menu-toggle{display:inline-flex}}
+.menu-toggle{display:none;background:none;border:1px solid #3a1d10;color:#ffb347;border-radius:6px;padding:6px 10px}
+.nav.open ul{display:flex;flex-basis:100%;flex-direction:column;gap:8px;padding-top:10px}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:10px;top:10px;background:#ff5722;color:#fff;padding:8px 12px;border-radius:6px;z-index:99}
