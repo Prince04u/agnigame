@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://agniclub.games/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://agniclub.games/about.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://agniclub.games/features.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://agniclub.games/gaming.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://agniclub.games/trust-security.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://agniclub.games/login.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://agniclub.games/signup.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://agniclub.games/register.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://agniclub.games/giftcode.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://agniclub.games/faq.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://agniclub.games/contact.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://agniclub.games/privacy.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://agniclub.games/terms.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://agniclub.games/responsible-gaming.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/about</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/features</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/gaming</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/trust-security</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/login</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/signup</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/register</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/giftcode</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/faq</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/contact</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/privacy</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/terms</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://agniclub.games/responsible-gaming</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
